@@ -10,3 +10,25 @@ public class code {
         int s5 = scan.nextInt();
         int sum = s1 + s2 + s3 + s4 + s5;
         int mark = sum / 5;
+  System.out.println("Your average mark is: " + mark);
+
+        if  (mark < 35){
+            System.out.println("Additional class is required");
+
+        }
+
+       
+
+        else {
+            System.out.println("you are good to go");
+
+
+    }
+    scan.close();
+
+    
+
+}
+}
+ 
+

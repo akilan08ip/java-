@@ -13,3 +13,12 @@ public class exs{
         System.out.println("division of A & B");
         System.out.println(a/b);
     }
+public static void main(String[] args) {
+        exs obj1 = new exs();
+        obj1.sum(10,18);
+        obj1.multi(10,5);
+        obj1.div(20,2);
+        
+    }
+    
+}

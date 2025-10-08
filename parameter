@@ -1,0 +1,18 @@
+public class para {
+     
+    void getsop( int price){
+        System.out.println(price);
+        System.out.println("sop purchased");
+    }
+    void book(int price){
+        System.out.println(price);
+        System.out.println("book purchased");
+    }
+    public static void main(String[] args) {
+        para obj1 = new para();
+
+        obj1.getsop( 20);
+        obj1.book(200);
+        
+    }
+}

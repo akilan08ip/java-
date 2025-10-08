@@ -1,0 +1,15 @@
+public class exs{
+    void sum(int a , int b){
+        System.out.println("sum of A & B");
+        System.out.println(a+b);
+
+    }
+    void multi(int a , int b){
+        System.out.println("multiplication of A & B");
+        System.out.println(a*b);
+
+    }
+    void div(int a ,int b){
+        System.out.println("division of A & B");
+        System.out.println(a/b);
+    }

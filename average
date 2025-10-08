@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class code {
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your score:");
+        int s1 = scan.nextInt();
+        int s2 = scan.nextInt();
+        int s3 = scan.nextInt();
+        int s4 = scan.nextInt();
+        int s5 = scan.nextInt();
+        int sum = s1 + s2 + s3 + s4 + s5;
+        int mark = sum / 5;
